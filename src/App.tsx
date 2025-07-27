@@ -17,7 +17,7 @@ const App = () => {
 
       <Header onhandleScroll={handleScroll} />
 
-      <main className="pt-[16vh] p-6 max-w-xl mx-auto">
+      <main className="pt-[16vh] p-6 max-w-2xl mx-auto">
         <Routes>
           <Route path="/" element={<Navigate to={"/home"} replace />} />
 
